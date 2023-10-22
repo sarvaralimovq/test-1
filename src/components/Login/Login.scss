@@ -1,0 +1,54 @@
+.login__inner {
+    background-color: transparent;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        padding-bottom: 25px;
+        color: #fff;
+        margin: 0 auto;
+    }
+    .login__name {
+        width: 90%;
+        color: #000;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgb(117, 117, 223);
+        padding-left: 10px;
+
+        &::placeholder {
+            color: #000;
+            text-align: center;
+        }
+    }
+    .login__fam {
+        width: 90%;
+        color: #000;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgb(117, 117, 223);
+        padding-left: 10px;
+        &::placeholder {
+            color: #000;
+            text-align: center;
+        }
+    }
+    .login__send {
+        padding: 1px 50px;
+        border: none;
+        color: #fff;
+        background: rgb(126, 126, 226);
+        a{
+            color: #fff;
+        }
+        &:hover {
+            background-color: rgb(79, 79, 160);
+        }
+    }
+}

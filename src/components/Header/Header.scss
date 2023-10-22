@@ -1,0 +1,29 @@
+.nav {
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            background-color: transparent;
+            width: 300px;
+            height: 300px;
+            
+        }
+    }
+    .header__list{
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        align-items: center;
+        a{
+            color:#fff;
+            text-decoration: none;
+            &:hover{
+                color: rgb(123, 111, 111);
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}
