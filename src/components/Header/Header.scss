@@ -15,7 +15,7 @@
     .header__list{
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 400px;
         align-items: center;
         a{
             color:#fff;
@@ -26,4 +26,13 @@
             }
         }
     }
+}
+
+.chiqish{
+    background-color: red;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+.none{
+    display: none;
 }

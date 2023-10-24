@@ -1,0 +1,51 @@
+.sinif3__top {
+    text-align: center;
+    .h1 {
+        width: 580px !important;
+        margin: 0 auto;
+        display: inline;
+        color: transparent;
+        // -webkit-text-stroke: 0.1vw #383d52 !important;
+        margin-bottom: 50px;
+        position: relative;
+    }
+}
+.sinif3__center {
+    .sinif3__list {
+        text-align: center;
+        gap: 100px;
+        .sinif3__item {
+            width: 100%;
+            margin: 0 auto;
+            background-color: #fff;
+            margin-top: 100px;
+            height: 400px;
+        }
+    }
+}
+.h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 0;
+    height: 100% !important;
+    color: #fff !important;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01fe87;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 1;
+    animation: animationH1 6s linear infinite;
+}
+@keyframes animationH1 {
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70% {
+        width: 100%;
+    }
+}
